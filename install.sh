@@ -8,7 +8,7 @@ sudo apt update && sudo apt install -y python3 python3-pip git curl
 # Buat direktori kerja
 BOT_DIR="vpn_bot"
 if [ ! -d "$BOT_DIR" ]; then
-    git clone https://github.com/Beni-glith/vpn-bot-template.git "$BOT_DIR" || mkdir "$BOT_DIR"
+    git clone https://github.com/Beni-glith/vpn-bot.git "$BOT_DIR" || mkdir "$BOT_DIR"
 fi
 cd "$BOT_DIR" || exit
 
